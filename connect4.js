@@ -35,15 +35,6 @@ function update_board(game_board,wanted_X,turn){
   }
   return "failure"
 }
-/*const names = ["Infinit", "Bility", "Infinitbility", "Welcome"];
-console.log(names[3]);  // Welcome
-console.log(names[4]);  // undefined
-if (!(names[4])){
-  console.log("Exist");
-} else {
-  console.log("Not Exist");
-}
-*/
 
 function check_win(game_board){
     //approche horizontale
@@ -123,8 +114,6 @@ function check_win(game_board){
             }
         }
     }
-    
-    
     return "Pas de vainqueurs"
 }
 
